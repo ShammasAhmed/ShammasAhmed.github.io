@@ -8,3 +8,5 @@ Replace:
 - assets/poster-knapsack.pdf
 - email address
 - GitHub repository links
+
+Last updated 7/2/2026
