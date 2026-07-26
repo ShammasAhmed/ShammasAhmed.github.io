@@ -1,1 +1,96 @@
-body{font-family:Arial,sans-serif;max-width:900px;margin:auto;padding:20px;line-height:1.6}nav a{margin-right:15px}header{display:flex;gap:30px;align-items:center}.photo{width:180px;height:180px;border:2px dashed #aaa;display:flex;align-items:center;justify-content:center;border-radius:50%}.card{border:1px solid #ddd;padding:15px;margin:15px 0;border-radius:8px}.badge{background:#eee;padding:2px 8px;border-radius:10px}footer{margin-top:40px;color:#666}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #0b5fa5;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.site-header nav {
+  margin-left: auto;
+}
+
+.site-header nav a {
+  margin-left: 15px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+}
+
+.site-header nav a.active {
+  background: #cfe8ff;
+  color: #0b3d68;
+}
+
+.title-block {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.title-block h1 {
+  margin: 0 0 8px;
+}
+
+.title-block p {
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.intro > div > :first-child {
+  margin-top: 0;
+}
+
+.intro + h2 {
+  margin-top: 0;
+}
+
+.contact-links {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.photo {
+  width: 275px;
+  height: 275px;
+  flex-shrink: 0;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.note {
+  display: block;
+  font-size: 0.85em;
+  font-style: italic;
+  color: #666;
+}
+
+footer {
+  margin-top: 40px;
+  color: #666;
+}
